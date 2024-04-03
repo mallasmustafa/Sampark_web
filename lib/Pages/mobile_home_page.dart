@@ -19,7 +19,7 @@ class MobileHomePage extends StatelessWidget {
         leading: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Image.asset(
-            "assets/Images/favicon.png",
+            "assets/Images/logo.png",
             width: 30,
           ),
         ),
