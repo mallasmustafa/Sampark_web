@@ -67,9 +67,9 @@ class WebHomePage extends StatelessWidget {
                   ),
                   WebFeatureWidget(
                     icon: Icons.info,
-                    title: "Easy to use",
+                    title: "Best Chatting app",
                     description:
-                        "Sampark App is A Easy to use app where you can connect with other",
+                        "Sampark App is A Best app for chatting with other",
                   ),
                 ],
               ),
@@ -79,15 +79,15 @@ class WebHomePage extends StatelessWidget {
                 children: [
                   WebFeatureWidget(
                     icon: Icons.info,
-                    title: "Easy to use",
+                    title: "Easy to Calling with other",
                     description:
-                        "Sampark App is A Easy to use app where you can connect with other",
+                        "Sampark App is A Best app for calling and VidoCalling with other",
                   ),
                   WebFeatureWidget(
                     icon: Icons.info,
-                    title: "Easy to use",
+                    title: "Easy to Creating Groups",
                     description:
-                        "Sampark App is A Easy to use app where you can connect with other",
+                        "Sampark App is A Best app for creating groups and connecting with other",
                   ),
                 ],
               ),
