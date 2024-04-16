@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:get/get.dart';
+import 'package:sampark_web/Controller/app_controller.dart';
 import 'package:sampark_web/Widgets/divider.dart';
 import 'package:sampark_web/Widgets/main_info.dart';
 import 'package:sampark_web/Widgets/screenshot.dart';
@@ -11,6 +13,7 @@ class WebHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AppController appController = Get.put(AppController());
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
@@ -27,7 +30,9 @@ class WebHomePage extends StatelessWidget {
         ),
         actions: [
           ElevatedButton.icon(
-            onPressed: () {},
+            onPressed: () {
+              appController.dawnloadApk();
+            },
             icon: const Icon(Icons.download),
             label: const Text(
               "Dawnload",
