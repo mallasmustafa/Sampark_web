@@ -52,7 +52,7 @@ class MainInfo extends StatelessWidget {
                 ),
               ),
               const Text(
-                "App version 1.0",
+                "App version 1.1.0",
                 style: TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.w200,
